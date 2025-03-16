@@ -1,0 +1,47 @@
+
+.planetDetailsContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  
+}
+
+ .planetDetailsContainer h1{
+    font-family: 'antonio';
+    text-transform: uppercase;
+    font-size: 80px;
+ }
+.planetDetailsContainer p{
+    font-family: 'league spartan';
+    text-align: left;
+    line-height: 25px;
+    font-size: 17px;
+    max-width: 500px;
+    
+}
+
+.planetDetailsContainer span {
+    color: #38384f;
+    font-weight: bold;
+}
+.planetDetailsContainer a {
+    text-decoration: underline;
+    color: #838391;
+    font-weight: bold;
+}
+
+@media (max-width: 961px){
+
+    .planetDetailsContainer h1{
+        font-size: 48px;
+    }
+    .planetDetailsContainer p{
+        font-size: 14px;
+    }
+}
+
+@media (max-width:704px){
+    .planetDetailsContainer{
+        align-items: center;
+    }
+}

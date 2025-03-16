@@ -1,0 +1,75 @@
+.statsContainer {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 4rem;
+}
+
+.stats {
+    display: flex;
+    flex-direction: column;
+    width: 255px;
+    height: 128px;
+    border: 1px solid #38384F;
+    padding: 1.25rem;
+    margin-left: 1rem;
+    gap: 1.5rem;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.statTitle {
+    font-family: 'league spartan';
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 2.5px;
+    line-height: 25px;
+    color: #838391;
+    text-transform: uppercase;
+}
+
+.statData {
+    font-family: 'antonio';
+    font-size: 40px;
+    letter-spacing: -1.5px;
+    line-height: 25px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+@media (max-width: 961px) {
+    .stats {
+        width: 164px;
+        height: 88px;
+        gap: 0.5rem;
+
+    }
+
+    .statTitle {
+        font-size: 10px;
+    }
+
+    .statData {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 704px) {
+
+    .statsContainer{
+        flex-direction: column;
+        gap:1rem;
+        margin-bottom: 2rem;
+
+    }
+    .stats{
+        flex-direction: row;
+        justify-content: space-between;
+        width: 80%;
+        height: 48px;
+        margin-right: auto;
+        margin-left: auto;
+        align-items: center;
+
+    }
+}

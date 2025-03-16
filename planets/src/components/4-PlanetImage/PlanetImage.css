@@ -1,0 +1,22 @@
+.planetImage{
+    z-index: 999;
+    display: block;
+    /* border: 2px solid red; */
+}
+
+.geoContainer{
+   /* border: 2px solid white; */
+    position: relative;
+}
+
+.test{
+    position: absolute;
+    top: 20rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 163px;
+    height: 199px;
+    
+}

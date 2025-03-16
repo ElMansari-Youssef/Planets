@@ -1,0 +1,84 @@
+.tabs {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 2rem;
+}
+
+button {
+
+    width: 350px;
+    height: 48px;
+    background-color: transparent;
+    /* border: none; */
+    border: 1px solid #38384F;
+    color: white ;
+    font-size: 16px;
+    font-family: 'league spartan';
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.wikiSource{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+
+
+@media (max-width: 961px){
+
+    button{
+        width: 281px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 705px) {
+
+.tabs{ 
+    flex-direction: row;
+    padding: 0;
+    justify-content: space-around;
+    border-bottom: 0.90px solid #979797;
+
+  
+    
+}
+button {
+
+    width: 89px;
+    height: 48px;
+    padding: 1px;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'league spartan';
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    
+}
+
+ button:hover {
+
+    /* pointer-events: none; */
+
+ }
+
+/* button::after{
+    content: "";
+    display: block;
+    width: 80%;
+    height: 2px;
+    background-color: red;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0.5rem;
+  
+} */
+
+}
