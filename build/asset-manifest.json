@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Planets/static/css/main.669cf13e.css",
+    "main.js": "/Planets/static/js/main.5ab80aa8.js",
+    "static/media/background-stars.svg": "/Planets/static/media/background-stars.f6233a6a8d2351c57f2b.svg",
+    "index.html": "/Planets/index.html",
+    "main.669cf13e.css.map": "/Planets/static/css/main.669cf13e.css.map",
+    "main.5ab80aa8.js.map": "/Planets/static/js/main.5ab80aa8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.669cf13e.css",
+    "static/js/main.5ab80aa8.js"
+  ]
+}
